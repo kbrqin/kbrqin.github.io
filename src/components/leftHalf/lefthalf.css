@@ -1,0 +1,10 @@
+:root{
+    --nightblue: #1E2055;
+}
+
+.lh{
+    background-color: var(--nightblue);
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}

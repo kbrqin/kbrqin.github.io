@@ -1,0 +1,10 @@
+.r {
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+}
+
+.r-resume {
+    width: 100vh;
+    height: 700vh;
+}

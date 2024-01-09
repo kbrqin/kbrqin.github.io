@@ -1,0 +1,60 @@
+:root {
+    --bgfootorange: #EFB9A0;
+    --linefootorange: #ffdecf;
+    --textfootorange: #1E0C05;
+    --textlink: #4947A6;
+    --textlinkvis: #17155B;
+    --textlinkhover: #423FD4;
+}
+
+.f {
+    background-color: var(--bgfootorange);
+    color: var(--textfootorange);
+    border-top: 2px solid var(--linefootorange);
+    font-family: 'Inconsolata', monospace;
+}
+
+.f-wrapper {
+    padding: 15px 10px;
+    display: flex;
+}
+
+.f-credits-wrapper {
+    flex: 4;
+    margin-left: 15px;
+}
+
+.f-contact-wrapper {
+    flex: 1;
+    text-align: right;
+    margin-right: 25px;
+}
+
+.f-contact-heading {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+a:link {
+color: var(--textfootorange);
+background-color: transparent;
+text-decoration: none;
+}
+
+a:visited {
+color: var(--textfootorange);
+background-color: transparent;
+text-decoration: none;
+}
+
+a:hover {
+color: var(--textlinkhover);
+background-color: transparent;
+text-decoration: underline;
+}
+
+a:active {
+color: var(--textfootorange);
+background-color: transparent;
+text-decoration: none;
+}

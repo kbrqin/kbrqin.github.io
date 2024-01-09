@@ -1,0 +1,42 @@
+:root {
+    --bgpurple: #CABDF1;
+    --textpurple: #180C3C;
+}
+
+.s {
+    background-color: var(--bgpurple);
+    color: var(--textpurple);
+    font-family: 'Lato', sans-serif;
+    height: 55  vh;
+    width: 100%;
+}
+
+.s-wrapper {
+    padding: 50px;
+}
+
+.s-heading {
+    font-family: 'Inconsolata', monospace;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.s-content-wrapper {
+    margin: 20px 0px 0px 0px;
+}
+
+.s-l-and-f-wrapper {
+    display: flex;
+}
+
+.s-langs-wrapper {
+    flex: 1;
+}
+
+.s-frameworks-wrapper {
+    flex: 1;
+}
+
+.s-list-heading {
+    font-weight: 600;
+}
