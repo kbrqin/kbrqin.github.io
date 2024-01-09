@@ -6,7 +6,7 @@ class Resume extends Component {
   render() {
 
     return (
-        <div className = "App">
+        <div className = "resume">
           <a href = {resume} target = "_blank">Resume</a>
         </div>
     );

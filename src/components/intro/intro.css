@@ -77,25 +77,25 @@
     justify-content: center;
 }
 
-a:link {
+a.i-res:link {
     color: var(--textwhite);
     background-color: transparent;
     text-decoration: none;
     }
     
-    a:visited {
+    a.i-res:visited {
     color: var(--textwhite);
     background-color: transparent;
     text-decoration: none;
     }
     
-    a:hover {
+    a.i-res:hover {
     color: var(--textwhite);
     background-color: transparent;
     text-decoration: underline;
     }
     
-    a:active {
+    a.i-res:active {
     color: var(--textwhite);
     background-color: transparent;
     text-decoration: none;
