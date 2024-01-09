@@ -1,3 +1,4 @@
+import Resume from '../resume/Resume';
 import './intro.css';
 
 const Intro = () => {
@@ -12,7 +13,7 @@ const Intro = () => {
                         <div className='i-title'>Designer</div>
                     </div>
                 </div>
-                <div className='i-resume-button'>Resume ↗</div>
+                <div className='i-resume-button'><Resume/></div>
             </div>
         </div>
     )
