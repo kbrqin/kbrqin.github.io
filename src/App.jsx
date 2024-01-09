@@ -10,8 +10,6 @@ import Skills from './components/skills/Skills';
 
 function App() {
   return (
-    // <Routes>
-    //   <Route path='/' element={(
         <div className='app'>
         <div className='left-container'><LeftHalf/></div>
         <div className='right-container'>
@@ -23,13 +21,6 @@ function App() {
           <Footer/>
         </div>
         </div>
-    //   )}/>
-    //   <Route path='/resume' element={(
-    //     <div className='app'>
-    //       <Resume/>
-    //     </div>
-    //   )}/>
-    // </Routes>
   );
 }
 
