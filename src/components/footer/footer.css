@@ -32,7 +32,11 @@
 
 .f-contact-heading {
     font-weight: 600;
-    margin-bottom: 5px;
+    margin-bottom: 3px;
+}
+
+.f-contact {
+    margin: 2px 0px;
 }
 
 a:link {

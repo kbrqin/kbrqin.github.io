@@ -33,7 +33,7 @@
 .hl-card {
     margin: 30px 15px;
     background-color: var(--cardbgblue);
-    height: 275px;
+    height: 300px;
     width: 250px;
     border-radius: 10px;
     display: flex;
@@ -58,6 +58,11 @@
 }
 
 .hl-card-img-csc {
+    width: 80px;
+    height: auto;
+}
+
+.hl-card-img-fbla {
     width: 80px;
     height: auto;
 }

@@ -1,6 +1,7 @@
 import './highlights.css';
 import ht6logo from '../../img/ht6logo.png';
 import csclogo from '../../img/csclogo.png';
+import fblalogo from '../../img/fblalogo.png';
 
 const Highlights = () => {
     return (
@@ -14,6 +15,7 @@ const Highlights = () => {
                         </div>
                         <div className='hl-card-org'>Hack the 6ix</div>
                         <div className='hl-card-position'>Design Executive</div>
+                        <div className="hl-card-time">Nov 2023 - Present</div>
                     </div>
                     <div className='hl-card'>
                         <div className='hl-img-wrapper'>
@@ -21,13 +23,15 @@ const Highlights = () => {
                         </div>
                         <div className='hl-card-org'>UW Computer Science Club</div>
                         <div className='hl-card-position'>Community Rep Lead + Designer</div>
+                        <div className="hl-card-time">Aug 2023 - Present</div>
                     </div>
                     <div className='hl-card'>
                         <div className='hl-img-wrapper'>
-                            <img src='' alt='something logo' className='hl-card-img'></img>
+                            <img src={fblalogo} alt='fbla logo' className='hl-card-img-fbla'></img>
                         </div>
-                        <div className='hl-card-org'>Something</div>
-                        <div className='hl-card-position'>something</div>
+                        <div className='hl-card-org'>Bayview FBLA</div>
+                        <div className='hl-card-position'>President</div>
+                        <div className="hl-card-time">2020-2023</div>
                     </div>
                 </div>
             </div>

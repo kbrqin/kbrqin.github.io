@@ -13,13 +13,13 @@ const Footer = () => {
                 </div>
                 <div className="f-contact-wrapper">
                     <div className="f-contact-heading">Contact</div>
-                    <div className="f-contact-github">
+                    <div className="f-contact f-github">
                         <a href='https://github.com/kbrqin' target="_blank">GitHub</a>
                     </div>
-                    <div className="f-contact-email">
+                    <div className="f-contact f-email">
                         <a href='mailto:kim.guo@uwaterloo.ca' target="_blank">Email</a>
                     </div>
-                    <div className="f-contact-resume">
+                    <div className="f-contact f-resume">
                         <Resume/>
                     </div>
                 </div>

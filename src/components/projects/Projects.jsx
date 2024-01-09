@@ -24,7 +24,7 @@ const Projects = () => {
                             </div>
                         </div>
                         <div className="p-project-img-wrapper">
-                            <img src={airate_mockup} className='p-project-img'></img>
+                            <img src={airate_mockup} alt='airate mockup' className='p-project-img'></img>
                         </div>
                     </div>
                     <div className="p-project-item-wrapper">
@@ -42,7 +42,7 @@ const Projects = () => {
                             </div>
                         </div>
                         <div className="p-project-img-wrapper">
-                            <img src={fliprem_mockup} className='p-project-img'></img>
+                            <img src={fliprem_mockup} alt='fliprem mockup' className='p-project-img'></img>
                         </div>
                     </div>
                     <div className="p-project-item-wrapper">
@@ -59,7 +59,7 @@ const Projects = () => {
                             </div>
                         </div>
                         <div className="p-project-img-wrapper">
-                            <img src={noted_mockup} className='p-project-img'></img>
+                            <img src={noted_mockup} alt='noted mockup' className='p-project-img'></img>
                         </div>
                     </div>
 
