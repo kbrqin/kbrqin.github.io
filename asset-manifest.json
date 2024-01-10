@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.649a39bd.css",
-    "main.js": "/static/js/main.fca77b13.js",
+    "main.css": "/static/css/main.73928b6e.css",
+    "main.js": "/static/js/main.98bcd429.js",
     "static/js/787.7da95b79.chunk.js": "/static/js/787.7da95b79.chunk.js",
     "static/media/headshot.jpg": "/static/media/headshot.6baf75c366c9e3d2bb03.jpg",
     "static/media/fblalogo.png": "/static/media/fblalogo.7dfb81666e7302400786.png",
+    "static/media/leftpic.png": "/static/media/leftpic.0429f626b82670fbbd1d.png",
     "static/media/resume.pdf": "/static/media/resume.059e74ab7407c42822e9.pdf",
     "static/media/fliprem_mockup.jpg": "/static/media/fliprem_mockup.06dffcbf302889340117.jpg",
     "static/media/airate_mockup.jpg": "/static/media/airate_mockup.3f18670b7170546e1dfc.jpg",
     "static/media/noted_mockup.png": "/static/media/noted_mockup.532cd2f9c1b2f3d2073a.png",
     "index.html": "/index.html",
-    "main.649a39bd.css.map": "/static/css/main.649a39bd.css.map",
-    "main.fca77b13.js.map": "/static/js/main.fca77b13.js.map",
+    "main.73928b6e.css.map": "/static/css/main.73928b6e.css.map",
+    "main.98bcd429.js.map": "/static/js/main.98bcd429.js.map",
     "787.7da95b79.chunk.js.map": "/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.649a39bd.css",
-    "static/js/main.fca77b13.js"
+    "static/css/main.73928b6e.css",
+    "static/js/main.98bcd429.js"
   ]
 }
