@@ -1,0 +1,16 @@
+.hp{
+display: flex;
+}
+
+.hp-left-container{
+flex: 1;
+}
+
+.hp-right-container{
+flex: 1;
+overflow: auto;
+}
+
+.right-container::-webkit-scrollbar {
+display: none;
+}

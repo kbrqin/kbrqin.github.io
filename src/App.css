@@ -1,16 +1,3 @@
 .app{
   display: flex;
 }
-
-.left-container{
-  flex: 1;
-}
-
-.right-container{
-  flex: 1;
-  overflow: auto;
-}
-
-.right-container::-webkit-scrollbar {
-  display: none;
-}

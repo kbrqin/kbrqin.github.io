@@ -1,17 +1,16 @@
-import React, { Component } from 'react';
+import './resume.css';
 import resume from '../../files/resume.pdf';
+import { Document, Page } from 'react-pdf';
 
-class Resume extends Component {
-
-  render() {
-
-    return (
-        <div className = "resume">
-          <a href = {resume} target = "_blank">Resume</a>
-        </div>
-    );
-
-  }
-}
-
+const Resume = () => {
+ return (
+  <div className="r">
+     <embed
+	src={resume}
+	type="application/pdf"
+	width="100%"
+	height="100%"/>
+  </div>
+ );
+};
 export default Resume;

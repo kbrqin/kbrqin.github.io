@@ -1,3 +1,4 @@
+import resume from '../../files/resume.pdf';
 import Resume from '../resume/Resume';
 import './footer.css';
 
@@ -20,7 +21,7 @@ const Footer = () => {
                         <a href='mailto:kim.guo@uwaterloo.ca' target="_blank" className='f-link'>Email</a>
                     </div>
                     <div className="f-contact f-resume">
-                        <Resume className='f-link'/>
+                        <a href={resume}>Resume</a>
                     </div>
                 </div>
             </div>

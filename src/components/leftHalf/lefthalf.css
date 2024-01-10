@@ -1,10 +1,32 @@
 :root{
     --nightblue: #1E2055;
+    --textwhite: #FFF8EE;
 }
 
 .lh{
     background-color: var(--nightblue);
+    color: var(--textwhite);
+    font-family: 'Inconsolata', monospace;
     height: 100%;
-    width: 100%;
+    width: 50%;
+    position: fixed;
     overflow: hidden;
+}
+
+.lh-wrapper {
+    padding: 50px;
+}
+
+.lh-nav-wrapper {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+}
+
+.lh-projects, .lh-about {
+    margin: 5px 0px 0px 0px;
 }

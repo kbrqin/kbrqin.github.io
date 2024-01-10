@@ -23,9 +23,11 @@ const Skills = () => {
                                 <li className='s-list-heading'>Languages</li>
                                 <ul>
                                     <li>Java</li>
-                                    <li>C</li>
                                     <li>Python</li>
+                                    <li>C</li>
+                                    <li>C++</li>
                                     <li>R</li>
+                                    <li>SQL</li>
                                 </ul>
                             </ul>
                         </div>
