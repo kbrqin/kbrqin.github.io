@@ -10,7 +10,7 @@
     color: var(--textblue);
     font-family: 'Lato', sans-serif;
     background-color: var(--introbgblue);
-    height: 70vh;
+    height: 80vh;
     width: 100%;
     overflow: auto;
     display: flex;

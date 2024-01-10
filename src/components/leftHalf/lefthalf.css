@@ -17,6 +17,15 @@
     padding: 50px;
 }
 
+.lh-pic-wrapper {
+    padding: 50px;
+}
+
+.lh-pic {
+    width: 500px;
+    height: auto;
+}
+
 .lh-nav-wrapper {
     position: absolute;
     bottom: 20px;
