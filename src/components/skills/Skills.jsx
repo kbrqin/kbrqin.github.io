@@ -39,7 +39,7 @@ const Skills = () => {
                                     <li>CSS3</li>
                                     <li>JavaScript</li>
                                     <li>React</li>
-                                    <li>Flask (Python)</li>
+                                    <li>Flask</li>
                                 </ul>
                             </ul>
                         </div>
