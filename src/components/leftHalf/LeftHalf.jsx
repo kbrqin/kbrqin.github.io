@@ -11,8 +11,11 @@ const LeftHalf = () => {
                     <img src={leftpic} alt='self illustration' className='lh-pic'></img>
                 </div>
                 <div className="lh-nav-wrapper">
-                    <div className="lh-projects">&gt; Projects</div>
-                    <div className="lh-about">&gt; About</div>
+                    <div className="lh-subsect">&gt; Home</div>
+                    <div className="lh-subsect">&gt; Highlights</div>
+                    <div className="lh-subsect">&gt; Skills</div>
+                    <div className="lh-subsect">&gt; Projects</div>
+                    <div className="lh-subsect">&gt; About</div>
                 </div>
             </div>
         </div>
