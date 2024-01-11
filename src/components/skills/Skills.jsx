@@ -33,7 +33,7 @@ const Skills = () => {
                         </div>
                         <div className="s-frameworks-wrapper">
                             <ul className='s-list'>
-                                <li className='s-list-heading'>Frameworks</li>
+                                <li className='s-list-heading'>Web/Frameworks</li>
                                 <ul>
                                     <li>HTML5</li>
                                     <li>CSS3</li>
