@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.4bc346c4.css",
-    "main.js": "/static/js/main.7a5977ab.js",
+    "main.js": "/static/js/main.5a972a3a.js",
     "static/js/787.7da95b79.chunk.js": "/static/js/787.7da95b79.chunk.js",
     "static/media/headshot.jpg": "/static/media/headshot.6baf75c366c9e3d2bb03.jpg",
     "static/media/fblalogo.png": "/static/media/fblalogo.7dfb81666e7302400786.png",
@@ -12,11 +12,11 @@
     "static/media/noted_mockup.png": "/static/media/noted_mockup.532cd2f9c1b2f3d2073a.png",
     "index.html": "/index.html",
     "main.4bc346c4.css.map": "/static/css/main.4bc346c4.css.map",
-    "main.7a5977ab.js.map": "/static/js/main.7a5977ab.js.map",
+    "main.5a972a3a.js.map": "/static/js/main.5a972a3a.js.map",
     "787.7da95b79.chunk.js.map": "/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4bc346c4.css",
-    "static/js/main.7a5977ab.js"
+    "static/js/main.5a972a3a.js"
   ]
 }
