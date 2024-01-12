@@ -4,7 +4,7 @@ import './intro.css';
 
 const Intro = () => {
     return (
-        <div className='i'>
+        <div className='i' id='home'>
             <div className='i-wrapper'>
                 <div className='i-name'>Kim Guo</div>
                 <div className='i-title-container'>

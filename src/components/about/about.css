@@ -1,13 +1,13 @@
 :root {
-    --bgorange: #F6C8B3;
-    --textorange: #221B04;
+    --bgorange: #FFD2A9;
+    --textorange: #160C02;
 }
 
 .a {
     background-color: var(--bgorange);
     color: var(--textorange);
     font-family: 'Lato', sans-serif;
-    height: 45vh;
+    height: 50vh;
     width: 100%;
 }
 

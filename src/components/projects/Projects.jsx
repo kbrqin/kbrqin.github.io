@@ -5,7 +5,7 @@ import fliprem_mockup from '../../img/fliprem_mockup.jpg';
 
 const Projects = () => {
     return (
-        <div className='p'>
+        <div className='p' id='projects'>
             <div className="p-wrapper">
                 <div className="p-heading">Featured Projects</div>
                 <div className="p-projects-wrapper">

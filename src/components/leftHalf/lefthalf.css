@@ -39,3 +39,32 @@
 .lh-subsect {
     margin: 5px 0px 0px 0px;
 }
+
+
+a.lh-link:link {
+    color: var(--textwhite);
+    background-color: transparent;
+    text-decoration: none;
+    }
+    
+    a.lh-link:visited {
+    color: var(--textwhite);
+    background-color: transparent;
+    text-decoration: none;
+    }
+    
+    a.lh-link:hover {
+    color: var(--textwhite);
+    background-color: transparent;
+    text-decoration: underline;
+    }
+    
+    a.lh-link:active {
+    color: var(--textwhite);
+    background-color: transparent;
+    text-decoration: none;
+    }
+
+    html {
+        scroll-behavior: smooth;
+      }

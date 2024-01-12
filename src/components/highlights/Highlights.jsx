@@ -5,7 +5,7 @@ import fblalogo from '../../img/fblalogo.png';
 
 const Highlights = () => {
     return (
-        <div className='hl'>
+        <div className='hl' div id='highlights'>
             <div className='hl-wrapper'>
                 <div className='hl-heading'>Highlights/Experiences</div>
                 <div className='hl-card-wrapper'>

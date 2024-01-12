@@ -1,0 +1,28 @@
+:root {
+    --textlink: #4947A6;
+    --textlinkhover: #605dee;
+}
+
+a.np-link:link {
+color: var(--textlink);
+background-color: transparent;
+text-decoration: underline;
+}
+
+a.np-link:visited {
+color: var(--textlink);
+background-color: transparent;
+text-decoration: underline;
+}
+
+a.np-link:hover {
+color: var(--textlinkhover);
+background-color: transparent;
+text-decoration: underline;
+}
+
+a.np-link:active {
+color: var(--textlink);
+background-color: transparent;
+text-decoration: underline;
+}

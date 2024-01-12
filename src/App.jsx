@@ -10,9 +10,8 @@ function App() {
     <Routes>
       {/* <Route path="/" element={<Homepage />}> */}
         <Route index element={<Homepage />} />
-        <Route path="resume" element={<Resume/>}/>
-        <Route path="nopage" element={<NoPage />} />
-      {/* </Route> */}
+        <Route path="/resume" element={<Resume/>}/>
+        <Route path="/*" element={<NoPage />} />
     </Routes>
   
   );
