@@ -1,11 +1,11 @@
 :root {
-    --bgpink: #EFC9EB;
+    --bgpink: #F1C4EC;
     --textpink: #45103F;
     --textwhite: #FFF8EE;
-    --prjbgpink: #ECB2E6;
-    --prjstrokepink: #EA9FE2;
-    --prjtagdsgnpink: #B13AA5;
-    --prjtagdevpink: #D84AC9;
+    --prjbgpink: #EBB7E6;
+    --prjstrokepink: #E9ACE2;
+    --prjtagdsgnpink: #B252A8;
+    --prjtagdevpink: #D763CA;
 }
 
 .p {
