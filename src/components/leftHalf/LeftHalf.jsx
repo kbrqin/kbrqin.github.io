@@ -12,19 +12,19 @@ const LeftHalf = () => {
                 </div>
                 <div className="lh-nav-wrapper">
                     <div className="lh-subsect">
-                        <a href="#home" className='lh-link'>&gt; Home</a>
+                        &gt; <a href="#home" className='lh-link'>Home</a>
                     </div>
                     <div className="lh-subsect">
-                        <a href="#highlights" className='lh-link'>&gt; Highlights</a>
+                        &gt; <a href="#highlights" className='lh-link'>Highlights</a>
                     </div>
                     <div className="lh-subsect">
-                        <a href="#skills" className='lh-link'>&gt; Skills</a>
+                        &gt; <a href="#skills" className='lh-link'>Skills</a>
                     </div>
                     <div className="lh-subsect">
-                        <a href="#projects" className='lh-link'>&gt; Projects</a>
+                        &gt; <a href="#projects" className='lh-link'>Projects</a>
                     </div>
                     <div className="lh-subsect">
-                        <a href="#about" className='lh-link'>&gt; About</a>
+                        &gt; <a href="#about" className='lh-link'>About</a>
                     </div>
                 </div>
             </div>
