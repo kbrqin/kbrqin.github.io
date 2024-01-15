@@ -62,7 +62,11 @@ const Projects = () => {
                             <img src={noted_mockup} alt='noted mockup' className='p-project-img'></img>
                         </div>
                     </div>
-
+                    <div className="p-all-proj-button-wrapper">
+                        <div className="p-all-proj-button">
+                            <a href="projects" className="p-projects-link">View All</a>
+                            </div>
+                    </div>
                 </div>
             </div>
         </div>

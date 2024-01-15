@@ -1,0 +1,64 @@
+:root {
+    --psffootpink: #ECC2E8;
+    --psflinefootpink: #fddffa;
+    --psftextpink: #45103F;
+    --textlink: #4947A6;
+    --textlinkvis: #45103F;
+    --textlinkhover: #423FD4;
+}
+
+.psf {
+    background-color: var(--psffootpink);
+    color: var(--psftextpink);
+    border-top: 2px solid var(--psflinefootpink);
+    font-family: 'Inconsolata', monospace;
+}
+
+.psf-wrapper {
+    padding: 15px 10px;
+    display: flex;
+}
+
+.psf-credits-wrapper {
+    flex: 4;
+    margin-left: 15px;
+}
+
+.psf-contact-wrapper {
+    flex: 1;
+    text-align: right;
+    margin-right: 25px;
+}
+
+.psf-contact-heading {
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+
+.psf-contact {
+    margin: 2px 0px;
+}
+
+a.psf-link:link {
+color: var(--psftextpink);
+background-color: transparent;
+text-decoration: none;
+}
+
+a.psf-link:visited {
+color: var(--psftextpink);
+background-color: transparent;
+text-decoration: none;
+}
+
+a.psf-link:hover {
+color: var(--textlinkhover);
+background-color: transparent;
+text-decoration: underline;
+}
+
+a.psf-link:active {
+color: var(--psftextpink);
+background-color: transparent;
+text-decoration: none;
+}
