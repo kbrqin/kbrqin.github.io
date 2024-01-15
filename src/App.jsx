@@ -15,7 +15,7 @@ function App() {
       {/* <Route path="/" element={<Homepage />}> */}
         <Route index element={<Homepage />} />
         <Route path="/resume" element={<Resume/>}/>
-        <Route path="/portfolio.html" element={<ProjectsSite/>}/>
+        <Route path="/portfolio" element={<ProjectsSite/>}/>
         <Route path="/projects/airate" element={<Airate/>}/>
         <Route path="/projects/fliprem" element={<Fliprem/>}/>
         <Route path="/projects/noted" element={<Noted/>}/>
