@@ -5,7 +5,7 @@ import './projectssite.css';
 
 const ProjectsSite = () => {
     return (
-        <div className='ps' id='projects'>
+        <div className='ps' id='portfolio'>
             <div className='ps-left-container'><PSLeftHalf/></div>
             <div className='ps-right-container'>
                 <PSRightHalf/>
