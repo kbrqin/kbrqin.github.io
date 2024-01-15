@@ -64,7 +64,7 @@ const Projects = () => {
                     </div>
                     <div className="p-all-proj-button-wrapper">
                         <div className="p-all-proj-button">
-                            <a href="/projects" className="p-projects-link">View All</a>
+                            <a href="/portfolio" className="p-projects-link">View All</a>
                             </div>
                     </div>
                 </div>
