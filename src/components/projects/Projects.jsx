@@ -2,6 +2,7 @@ import './projects.css';
 import airate_mockup from '../../img/airate_mockup.jpg';
 import noted_mockup from '../../img/noted_mockup.png';
 import fliprem_mockup from '../../img/fliprem_mockup.jpg';
+import { Link } from 'react-router-dom';
 
 const Projects = () => {
     return (
@@ -64,7 +65,7 @@ const Projects = () => {
                     </div>
                     <div className="p-all-proj-button-wrapper">
                         <div className="p-all-proj-button">
-                            <a href="/portfolio" className="p-projects-link">View All</a>
+                            <Link to="/portfolio" className="p-projects-link">View All</Link>
                             </div>
                     </div>
                 </div>
