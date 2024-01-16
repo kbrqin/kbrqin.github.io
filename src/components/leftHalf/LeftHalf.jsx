@@ -2,6 +2,7 @@ import About from '../about/About';
 import Projects from '../projects/Projects';
 import leftpic from '../../img/leftpic.png';
 import './lefthalf.css';
+import { HashLink } from 'react-router-hash-link';
 
 const LeftHalf = () => {
     return (
@@ -12,19 +13,19 @@ const LeftHalf = () => {
                 </div>
                 <div className="lh-nav-wrapper">
                     <div className="lh-subsect">
-                        &gt; <a href="#home" className='lh-link'>Home</a>
+                        &gt; <HashLink to="#home" className='lh-link'>Home</HashLink>
                     </div>
                     <div className="lh-subsect">
-                        &gt; <a href="#highlights" className='lh-link'>Highlights</a>
+                        &gt; <HashLink to="#highlights" className='lh-link'>Highlights</HashLink>
                     </div>
                     <div className="lh-subsect">
-                        &gt; <a href="#skills" className='lh-link'>Skills</a>
+                        &gt; <HashLink to="#skills" className='lh-link'>Skills</HashLink>
                     </div>
                     <div className="lh-subsect">
-                        &gt; <a href="#projects" className='lh-link'>Projects</a>
+                        &gt; <HashLink to="#projects" className='lh-link'>Projects</HashLink>
                     </div>
                     <div className="lh-subsect">
-                        &gt; <a href="#about" className='lh-link'>About</a>
+                        &gt; <HashLink to="#about" className='lh-link'>About</HashLink>
                     </div>
                 </div>
             </div>

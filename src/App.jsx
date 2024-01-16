@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Homepage from './components/homepage/Homepage';
 import NoPage from './components/nopage/NoPage';
@@ -11,17 +11,15 @@ import Noted from './components/projects-site/individual-pages/sitenoted/Noted';
 
 function App() {
   return (
-    <Routes>
+      <Routes>
       {/* <Route path="/" element={<Homepage />}> */}
-        <Route index element={<Homepage />} />
-        <Route path="/resume" element={<Resume/>}/>
+        <Route path="/" element={<Homepage />} />
         <Route path="/portfolio" element={<ProjectsSite/>}/>
-        <Route path="/projects/airate" element={<Airate/>}/>
+        {/* <Route path="/projects/airate" element={<Airate/>}/>
         <Route path="/projects/fliprem" element={<Fliprem/>}/>
-        <Route path="/projects/noted" element={<Noted/>}/>
+        <Route path="/projects/noted" element={<Noted/>}/> */}
         <Route path="/*" element={<NoPage />} />
     </Routes>
-  
   );
 }
 
