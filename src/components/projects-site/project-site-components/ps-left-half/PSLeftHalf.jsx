@@ -11,7 +11,7 @@ const PSLeftHalf = () => {
 
                 <div className="pslh-nav-wrapper">
                     <div className="lh-nav-home">
-                        &gt; <a href="/" className='lh-link'>Back to Home</a>
+                        &lt; <a href="/" className='lh-link'>Back to Home</a>
                     </div>
                 </div>
             </div>

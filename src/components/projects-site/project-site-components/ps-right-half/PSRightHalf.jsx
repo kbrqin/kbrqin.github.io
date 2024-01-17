@@ -2,6 +2,7 @@ import './psrighthalf.css';
 import airate_mockup from '../../../../img/airate_mockup.jpg';
 import fliprem_mockup from '../../../../img/fliprem_mockup.jpg';
 import noted_mockup from '../../../../img/noted_mockup.png';
+import comingsoon from '../../../../img/comingsoon.png';
 
 const PSRightHalf = () => {
     return (
@@ -34,7 +35,7 @@ const PSRightHalf = () => {
                             </div>
                         </div>
                         <div className="prsh-project-img-wrapper">
-                            <img src={airate_mockup} alt='airate mockup' className='prsh-project-img'></img>
+                            <img src={comingsoon} alt='coming soon!' className='prsh-project-img'></img>
                         </div>
                     </div>
                     <div className="prsh-project-item-wrapper">
