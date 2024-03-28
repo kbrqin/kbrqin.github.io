@@ -1,7 +1,7 @@
 :root{
     --textblue: #1E2055;
     --introbgblue: #B9BBF8;
-    --buttonblue: #494B8A;
+    --buttonblue: #585ca1;
     --borderblue: #1e2055ae;
     --textwhite: #FFF8EE;
 }
@@ -63,13 +63,13 @@
 
 .i-resume-button{
     font-family: 'Inconsolata', monospace;
-    background-color: none;
+    background-color: var(--buttonblue);
     border: none;
-    color: var(--textblue);
+    color: var(--textwhite);
     margin: 15px;
-    border-radius: 30px;
-    height: 28px;
-    width: 200px;
+    border-radius: 2px;
+    height: 20px;
+    width: 215px;
     font-size: 19px;
     font-weight: 150;
     display: flex;
@@ -78,25 +78,25 @@
 }
 
 a.i-res:link {
-    color: var(--textblue);
+    color: var(--textwhite);
     background-color: transparent;
     text-decoration: none;
     }
     
     a.i-res:visited {
-    color: var(--textblue);
+    color: var(--textwhite);
     background-color: transparent;
     text-decoration: none;
     }
     
     a.i-res:hover {
-    color: var(--textblue);
+    color: var(--textwhite);
     background-color: transparent;
     text-decoration: underline;
     }
     
     a.i-res:active {
-    color: var(--textblue);
+    color: var(--textwhite);
     background-color: transparent;
     text-decoration: none;
     }
