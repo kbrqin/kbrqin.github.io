@@ -63,40 +63,40 @@
 
 .i-resume-button{
     font-family: 'Inconsolata', monospace;
-    background-color: var(--buttonblue);
-    border: 2px solid var(--borderblue);
-    color: var(--textwhite);
+    background-color: none;
+    border: none;
+    color: var(--textblue);
     margin: 15px;
     border-radius: 30px;
     height: 28px;
-    width: 100px;
+    width: 200px;
     font-size: 19px;
-    font-weight: 100;
+    font-weight: 150;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 a.i-res:link {
-    color: var(--textwhite);
+    color: var(--textblue);
     background-color: transparent;
     text-decoration: none;
     }
     
     a.i-res:visited {
-    color: var(--textwhite);
+    color: var(--textblue);
     background-color: transparent;
     text-decoration: none;
     }
     
     a.i-res:hover {
-    color: var(--textwhite);
+    color: var(--textblue);
     background-color: transparent;
     text-decoration: underline;
     }
     
     a.i-res:active {
-    color: var(--textwhite);
+    color: var(--textblue);
     background-color: transparent;
     text-decoration: none;
     }

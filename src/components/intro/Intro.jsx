@@ -1,5 +1,6 @@
 import Resume from '../resume/Resume';
 import resume from '../../files/resume.pdf';
+import portfolio from '../../files/portfolio.pdf';
 import './intro.css';
 
 const Intro = () => {
@@ -14,7 +15,14 @@ const Intro = () => {
                         <div className='i-title'>Designer</div>
                     </div>
                 </div>
-                <div className='i-resume-button'><a href={resume} className='i-res'>Resume</a></div>
+                <div className='i-resume-button'>
+                    [&nbsp;
+                    <a href={resume} className='i-res'>Resume</a>
+                    &nbsp;|&nbsp;  
+                    <a href={portfolio} className='i-res'>Portfolio</a>
+                    &nbsp;] 
+                    </div>
+                    
             </div>
         </div>
     )
