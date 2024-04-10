@@ -9,17 +9,17 @@ const About = () => {
         <div className='about' id='about'>
             <div className="home-wrapper">
             <Header/>
-                <div className="about-title">about me</div>
+                <div className="about-title">about <b className='text-purple'>me</b></div>
                 <div className="about-content-wrapper">
                     <div className="about-text-wrapper">
                     <div className="about-text">
-                    Hi, I’m Kim, a computer science student at the University of Waterloo, also working towards a role in graphic and UI/UX design. 
+                    Hi, I’m Kim, a <b className='text-purple'>computer science</b> student at the University of Waterloo, also working towards a role in graphic and UI/UX design. 
                     </div>
                     <div className="about-text">
 Throughout my childhood, I’ve drawn and done various types of visual arts as a hobby, from realism sketching to doodling to the more artistic side of bullet journaling. 
                     </div>
                     <div className="about-text">
-Moreover, I’ve also been vastly interested in technology and its applications since childhood, as I started experimenting with digital drawings and sketches when I got my first tablet with a round tip stylus at around 8 years old, and I also learned HTML/CSS and created a basic French website when I got my first laptop at around grade 5.
+Moreover, I’ve also been vastly interested in technology and its applications since childhood, as I started experimenting with digital drawings and sketches when I got my first tablet with a round tip stylus at around 8 years old, and I also learned HTML/CSS and created a basic French website when I got my first laptop at around fifth grade.
                     </div>
                     <div className="about-text">
                         

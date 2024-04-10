@@ -1,0 +1,42 @@
+:root{
+    --v2white: #fffffe;
+    --v2purplelight: #C3A1EF;
+    --v2purplemid: #8A66B8;
+    --v2black: #242E2F; 
+}
+
+b{
+    font-weight: 600;
+}
+
+b.text-purple{
+    font-weight: 600;
+    color: var(--v2purplemid);
+}
+
+.d {
+    color: var(--v2black);
+    font-family: 'Inter', sans-serif;
+    background-color: var(--v2white);
+    /* height: 100%; */
+    /* width: 100%; */
+    width: 80vw;
+    margin: 0 auto;
+    /* width: 100%; */
+    /* overflow: auto; */
+    display: flex;
+    align-items: column;
+    justify-content: center;
+    /* top: 50%; */
+    /* left: 50%; */
+}
+
+.d-title{
+    font-weight: 600;
+    font-size: 24px;
+    padding: 50px 100px 20px 125px;
+}
+.d-text{
+    font-size: 16px;
+    padding: 10px 250px 10px 150px;
+}

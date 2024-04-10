@@ -13,6 +13,7 @@ import Header from '../src/v2_components/header/Header';
 import Homepage from '../src/v2_components/homepage/Homepage';
 import Drafts from '../src/v2_components/drafts/Drafts';
 import About from '../src/v2_components/about/About';
+import CSC from './v2_components/csc_page/CSC';
 
 function App() {
   return (
@@ -27,6 +28,8 @@ function App() {
         <Route path="/projects/noted" element={<Noted/>}/> */}
         <Route path="/*" element={<NoPage />} />
 
+
+        <Route path="/UW_CS_Club" element={<CSC/>}/>
     </Routes>
   );
 }

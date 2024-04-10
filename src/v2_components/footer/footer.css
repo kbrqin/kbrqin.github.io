@@ -5,11 +5,27 @@
     --v2black: #242E2F; 
 }
 
+b{
+    font-weight: 600;
+}
+
+b.text-purple{
+    font-weight: 600;
+    color: var(--v2purplemid);
+}
+
 .f {
     background-color: var(--v2white);
     color: var(--v2black);
     border-top: 3px solid var(--v2purplelight);
     font-family: 'Inter', sans-serif;
+    margin-top: 40px;
+}
+
+.f-divider{
+    font-weight: 600;
+    color: var(--v2purplelight);
+    padding: 10px 0px;
 }
 
 .f-wrapper {
