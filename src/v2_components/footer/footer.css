@@ -1,0 +1,86 @@
+:root{
+    --v2white: #fffffe;
+    --v2purplelight: #C3A1EF;
+    --v2purplemid: #8A66B8;
+    --v2black: #242E2F; 
+}
+
+.f {
+    background-color: var(--v2white);
+    color: var(--v2black);
+    border-top: 3px solid var(--v2purplelight);
+    font-family: 'Inter', sans-serif;
+}
+
+.f-wrapper {
+    padding: 15px 10px;
+    display: flex;
+}
+
+.f-contact-wrapper {
+    flex: 1;
+    text-align: right;
+    margin-right: 25px;
+}
+
+.f-contact-heading {
+    font-weight: 600;
+    margin-bottom: 3px;
+    color: var(--v2purplemid);
+}
+
+.f-contact {
+    margin: 2px 0px;
+}
+
+a.f-link:link {
+color: var(--v2black);
+background-color: transparent;
+text-decoration: none;
+}
+
+a.f-link:visited {
+color: var(--v2black);
+background-color: transparent;
+text-decoration: none;
+}
+
+a.f-link:hover {
+color: var(--v2purplemid);
+background-color: transparent;
+text-decoration: underline;
+}
+
+a.f-link:active {
+color: var(--v2black);
+background-color: transparent;
+text-decoration: none;
+}
+
+a.f-email:link {
+    color: var(--v2purplemid);
+    background-color: transparent;
+text-decoration: none;
+font-weight: 600;
+}
+
+a.f-email:visited {
+    color: var(--v2purplemid);
+    background-color: transparent;
+text-decoration: none;
+font-weight: 600;
+}
+
+a.f-email:hover {
+    color: var(--v2purplemid);
+    background-color: transparent;
+text-decoration: underline;
+font-weight: 600;
+}
+
+a.f-email:active {
+    color: var(--v2purplemid);
+    background-color: transparent;
+text-decoration: none;
+font-weight: 600;
+}
