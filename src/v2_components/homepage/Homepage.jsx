@@ -127,7 +127,7 @@ const Homepage = () => {
                                 Designer, Community Representative Lead
                                 </div>
                                 <div className="home-fw-item-body">
-                                As a designer and a reps lead, I have created several designs for marketing posts, worked on the designs for merchandise, and contributed to the CS Class Profile (graduating class data).                                </div>
+                                As a designer and the reps lead, I have created several designs for marketing posts, worked on the designs for merchandise, and contributed to the CS Class Profile (graduating class data).                                </div>
                                 <div className="home-fw-item-explore">
                                 <Link to='/UW_CS_Club' className='home-explore-link'>Explore -&gt;</Link>
                                 </div>
@@ -162,7 +162,7 @@ const Homepage = () => {
                                 Airate
                                 </div>
                                 <div className="home-fw-item-subtitle">
-                                UI/UX Designer, Front-End Eeveloper
+                                UI/UX Designer, Front-End Developer
                                 </div>
                                 <div className="home-fw-item-body">
                                 In light of the forest fires in Canada/USA around June 2023, we created an community-based application that would inform the users about the air quality in various regions. 
