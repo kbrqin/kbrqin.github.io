@@ -1,5 +1,6 @@
 import Header from '../header/Header';
 import './csc.css';
+import csc_header from '../../img/csc_header.png';
 import csc_design from '../../img/csc_design.png';
 import csc_reps_w24 from '../../img/csc_reps_w24.png';
 import csc_reps_f23 from '../../img/csc_reps_f23.png';
@@ -12,6 +13,9 @@ const CSC = () => {
         <div className='csc' id='csc'>
             <div className="d-wrapper">
                 <Header/>
+                <div className="csc-header-img-wrapper">
+                    <img src={csc_header} alt='csc header picture' className='csc-header-img'></img>
+                </div>
                 <div className="csc-title">uwaterloo <b className='text-purple'>computer science</b> club</div>
                 <div className="csc-header">preface</div>
                 <div className="csc-text">As an organizing committee executive of the UW Computer Science Club (UWCSC), I have participated in organizing many of the club’s projects and events throughout the past two terms, during which I have been a part of CSC. I am a designer and community representative for the club, and during this current term, I hold the role of the community representative lead and have been leading 4 initiatives, which include: club swag ideation, finances, and logistics; the CS club class profile, which is a website of the compiled survey data of each year’s graduating class; and engagement and internship initiatives.</div>

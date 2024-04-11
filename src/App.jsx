@@ -1,4 +1,4 @@
-import { HashRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route, ScrollRestoration } from 'react-router-dom';
 import './App.css';
 // import Homepage from './components/homepage/Homepage';
 import NoPage from './components/nopage/NoPage';
@@ -14,6 +14,11 @@ import Homepage from '../src/v2_components/homepage/Homepage';
 import Drafts from '../src/v2_components/drafts/Drafts';
 import About from '../src/v2_components/about/About';
 import CSC from './v2_components/csc_page/CSC';
+import Airate from './v2_components/airate_page/Airate';
+import Skinhance from './v2_components/skinhance_page/Skinhance';
+import HT6 from './v2_components/ht6_page/HT6';
+
+
 
 function App() {
   return (
@@ -30,7 +35,11 @@ function App() {
 
 
         <Route path="/UW_CS_Club" element={<CSC/>}/>
+        <Route path="/Airate" element={<Airate/>}/>
+        <Route path="/Skinhance" element={<Skinhance/>}/>
+        <Route path="/Hack_the_6ix" element={<HT6/>}/>
     </Routes>
+    // <ScrollRestoration/>
   );
 }
 

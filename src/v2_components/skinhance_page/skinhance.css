@@ -14,7 +14,11 @@ b.text-purple{
     color: var(--v2purplemid);
 }
 
-.csc {
+ul, li{
+    margin: 0;
+}
+
+.skin {
     color: var(--v2black);
     font-family: 'Inter', sans-serif;
     background-color: var(--v2white);
@@ -31,47 +35,59 @@ b.text-purple{
     /* left: 50%; */
 }
 
-.csc-header-img-wrapper{
+.skin-header-img-wrapper{
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 0px 0px 20px 0px;
 }
 
-.csc-header-img{
+.skin-header-img{
     width: 65vw;
 }
 
-.csc-title{
+.skin-title{
     font-weight: 600;
     font-size: 24px;
     padding: 50px 100px 20px 125px;
 }
 
-.csc-header{
+.skin-subtitle{
+    font-size: 16px;
+    padding: 2px 125px 2px 125px;
+}
+
+.skin-divider{
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--v2purplelight);
+    padding: 5px 125px 10px 125px;
+}
+
+.skin-header{
     font-weight: 600;
     font-size: 20px;
     padding: 20px 100px 10px 125px;
 }
 
-.csc-h2{
+.skin-h2{
     font-weight: 600;
     font-size: 16px;
     padding: 20px 10px 10px 125px;
 }
 
-.csc-text{
+.skin-text{
     font-size: 16px;
     padding: 10px 125px 10px 150px;
 }
 
-.csc-img-wrapper{
+.skin-img-wrapper{
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 20px 0px;
 }
 
-.csc-img{
+.skin-img{
     width: 800px;
 }

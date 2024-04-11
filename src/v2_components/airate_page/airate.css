@@ -14,7 +14,7 @@ b.text-purple{
     color: var(--v2purplemid);
 }
 
-.csc {
+.airate {
     color: var(--v2black);
     font-family: 'Inter', sans-serif;
     background-color: var(--v2white);
@@ -31,47 +31,59 @@ b.text-purple{
     /* left: 50%; */
 }
 
-.csc-header-img-wrapper{
+.airate-header-img-wrapper{
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 0px 0px 20px 0px;
 }
 
-.csc-header-img{
+.airate-header-img{
     width: 65vw;
 }
 
-.csc-title{
+.airate-title{
     font-weight: 600;
     font-size: 24px;
     padding: 50px 100px 20px 125px;
 }
 
-.csc-header{
+.airate-subtitle{
+    font-size: 16px;
+    padding: 2px 125px 2px 125px;
+}
+
+.airate-divider{
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--v2purplelight);
+    padding: 5px 125px 10px 125px;
+}
+
+.airate-header{
     font-weight: 600;
     font-size: 20px;
     padding: 20px 100px 10px 125px;
 }
 
-.csc-h2{
+.airate-h2{
     font-weight: 600;
     font-size: 16px;
     padding: 20px 10px 10px 125px;
 }
 
-.csc-text{
+.airate-text{
     font-size: 16px;
     padding: 10px 125px 10px 150px;
 }
 
-.csc-img-wrapper{
+.airate-img-wrapper{
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 20px 0px;
 }
 
-.csc-img{
+.airate-img{
     width: 800px;
 }

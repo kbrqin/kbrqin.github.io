@@ -80,7 +80,7 @@ const Homepage = () => {
                             <b>Design tools:</b> Figma, MockFlow, Adobe Creative Cloud (Photoshop, Illustrator, InDesign, Premiere Pro, Lightroom), Blender (CAD software)
                         </div>  
                         <div className="home-ts-body">
-                            Development/data analysis tools:
+                            <b>Development/data analysis tools:</b>
                             <ul>
                                 <li><b>Languages/frameworks:</b> Java, Python, C, C++, R, Excel, MATLAB, SQL, HTML5, CSS3, JavaScript/TypeScript, React, Angular, Flask, Streamlit, Matplotlib, Numpy, BeautifulSoup, pandas, scikit-learn, Shell Script</li>
                                 <li><b>Additional tools:</b> Git, Power BI, Jupyter Notebook, Postman API, REST APIs</li>
@@ -110,7 +110,7 @@ const Homepage = () => {
                                     For the Hack the 6ix Organizing Team, I have been working on the 2024 website and dashboard designs, as well as creating visual assets to be used for the website and merchandise. 
                                 </div>
                                 <div className="home-fw-item-explore">
-                                    Explore -&gt;
+                                    <Link to='/Hack_the_6ix' className='home-explore-link'>Explore -&gt;</Link>
                                 </div>
                             </div>
                         </div>  
@@ -148,7 +148,7 @@ const Homepage = () => {
                                 <div className="home-fw-item-body">
                                 With my passion for East Asian skincare, I created a database of 350 skincare products through YesStyle web scraping, and used ML algorithms to analyze similarity between each product.                                </div>
                                 <div className="home-fw-item-explore">
-                                    Explore -&gt;
+                                    <Link to='/Skinhance' className='home-explore-link'>Explore -&gt;</Link>
                                 </div>
                             </div>
                         </div> 
@@ -168,7 +168,7 @@ const Homepage = () => {
                                 In light of the forest fires in Canada/USA around June 2023, we created an community-based application that would inform the users about the air quality in various regions. 
                                 </div>                                
                                 <div className="home-fw-item-explore">
-                                    Explore -&gt;
+                                <Link to='/Airate' className='home-explore-link'>Explore -&gt;</Link>
                                 </div>
                             </div>
                         </div>  
