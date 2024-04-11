@@ -75,3 +75,31 @@ b.text-purple{
 .csc-img{
     width: 800px;
 }
+
+a.csc-link:link {
+    color: var(--v2purplemid);
+    background-color: transparent;
+text-decoration: none;
+font-weight: 600;
+}
+
+a.csc-link:visited {
+    color: var(--v2purplemid);
+    background-color: transparent;
+text-decoration: none;
+font-weight: 600;
+}
+
+a.csc-link:hover {
+    color: var(--v2purplemid);
+    background-color: transparent;
+text-decoration: underline;
+font-weight: 600;
+}
+
+a.csc-link:active {
+    color: var(--v2purplemid);
+    background-color: transparent;
+text-decoration: none;
+font-weight: 600;
+}

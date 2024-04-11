@@ -38,7 +38,7 @@ const CSC = () => {
                     <img src={csc_reps_f23} alt='reps f23 swag designs' className='csc-img'></img>
                 </div>      
                 <div className="csc-header">csc <b className='text-purple'>class profile</b></div>
-                <div className="csc-text">The CS Class Profile is a compilation of each year’s CS/CFM/CSBBA graduating class, including data from their academics to their intimate life. I worked on the Class Profile from multiple teams—from the design end, I contributed to the UI/UX of the website, and from the reps end, I wrote the paragraph/analysis content of the website. A preview of it is below, and the full class profile can be viewed on the <a href='https://csclub.uwaterloo.ca/classprofile/2023/' className='csc-cp-link'>club website</a>. </div>          
+                <div className="csc-text">The CS Class Profile is a compilation of each year’s CS/CFM/CSBBA graduating class, including data from their academics to their intimate life. I worked on the Class Profile from multiple teams—from the design end, I contributed to the UI/UX of the website, and from the reps end, I wrote the paragraph/analysis content of the website. A preview of it is below, and the full class profile can be viewed on the <a href='https://csclub.uwaterloo.ca/classprofile/2023/' className='csc-link'>club website</a>. </div>          
                 <div className="csc-img-wrapper">
                     <img src={csc_cp} alt='cs class profile mockup' className='csc-img'></img>
                 </div>

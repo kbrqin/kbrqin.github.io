@@ -91,3 +91,31 @@ ul, li{
 .skin-img{
     width: 800px;
 }
+
+a.skin-link:link {
+    color: var(--v2purplemid);
+    background-color: transparent;
+text-decoration: none;
+font-weight: 600;
+}
+
+a.skin-link:visited {
+    color: var(--v2purplemid);
+    background-color: transparent;
+text-decoration: none;
+font-weight: 600;
+}
+
+a.skin-link:hover {
+    color: var(--v2purplemid);
+    background-color: transparent;
+text-decoration: underline;
+font-weight: 600;
+}
+
+a.skin-link:active {
+    color: var(--v2purplemid);
+    background-color: transparent;
+text-decoration: none;
+font-weight: 600;
+}
