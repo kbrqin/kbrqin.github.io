@@ -35,6 +35,22 @@ ul, li{
     /* left: 50%; */
 }
 
+.ht6-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+}
+
+.ht6-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    /* border: 2px solid red; */
+    width: 100%;
+}
+
 .ht6-header-img-wrapper{
     display: flex;
     align-items: center;

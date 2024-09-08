@@ -18,25 +18,56 @@ b.text-purple{
     background-color: var(--v2white);
     color: var(--v2black);
     border-top: 3px solid var(--v2purplelight);
-    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
     margin-top: 40px;
+    width: 65vw;
+}
+
+@media (max-width: 768px) {
+    .f {
+        width: 100vw;
+    }
 }
 
 .f-divider{
     font-weight: 600;
-    color: var(--v2purplelight);
+    color: var(--v2purplemid);
     padding: 10px 0px;
 }
 
 .f-wrapper {
     padding: 15px 10px;
     display: flex;
+    flex-direction: row;
+    gap: 50px;    
+}
+
+.f-credits-wrapper {
+    flex: 9;
+    text-align: left;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+}
+
+.f-credits-wrapper p {
+    margin: 0;
+}
+
+.f-update-time {
+    color: #847992;
+    font-size: 14px;
+    margin: 10px 0 !important;
 }
 
 .f-contact-wrapper {
     flex: 1;
-    text-align: right;
-    margin-right: 25px;
+    text-align: left;
+    /* margin-right: 25px; */
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .f-contact-heading {
@@ -45,8 +76,23 @@ b.text-purple{
     color: var(--v2purplemid);
 }
 
-.f-contact {
-    margin: 2px 0px;
+.f-sm-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.f-sm-icons img {
+    width: 24px;
+    height: 24px;
+}
+
+@media screen and (max-width: 450px) {
+    .f-wrapper {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
 }
 
 a.f-link:link {

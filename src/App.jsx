@@ -11,7 +11,7 @@ import resume from './files/resume.pdf';
 
 import Header from '../src/v2_components/header/Header';
 import Homepage from '../src/v2_components/homepage/Homepage';
-import Drafts from '../src/v2_components/drafts/Drafts';
+import Works from './v2_components/works/Works';
 import About from '../src/v2_components/about/About';
 import CSC from './v2_components/csc_page/CSC';
 import Airate from './v2_components/airate_page/Airate';
@@ -25,7 +25,7 @@ function App() {
       <Routes>
       {/* <Route path="/" element={<Homepage />}> */}
         <Route path="/" element={<Homepage />} /> 
-        <Route path="/drafts" element={<Drafts />} /> 
+        <Route path="/works" element={<Works />} /> 
         <Route path="/about" element={<About />} /> 
         {/* <Route path="/portfolio" element={<ProjectsSite/>}/> */}
         {/* <Route path="/projects/airate" element={<Airate/>}/>

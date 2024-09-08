@@ -35,6 +35,19 @@ ul, li{
     /* left: 50%; */
 }
 
+.skin-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skin-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
 .skin-header-img-wrapper{
     display: flex;
     align-items: center;

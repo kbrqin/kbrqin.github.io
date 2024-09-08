@@ -16,7 +16,7 @@ b.text-purple{
 
 .airate {
     color: var(--v2black);
-    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
     background-color: var(--v2white);
     /* height: 100%; */
     /* width: 100%; */
@@ -29,6 +29,20 @@ b.text-purple{
     justify-content: center;
     /* top: 50%; */
     /* left: 50%; */
+}
+
+.airate-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.airate-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    /* align-items: center; */
 }
 
 .airate-header-img-wrapper{

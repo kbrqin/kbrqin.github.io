@@ -1,8 +1,13 @@
 import Header from '../header/Header';
 import Footer from '../footer/Footer';
+import SeeMoreBtn from '../see_more_button/SeeMoreBtn';
 import './homepage.css';
 import home_photo from '../../img/homephoto.png';
 import sparkle_divider from '../../img/sparkle_divider.png';
+import flower_icon from '../../img/v3_img/flower_icon.png';
+import books_icon from '../../img/v3_img/books_icon.png';
+import flower_deco from '../../img/v3_img/flower_deco.png';
+import doc_icon from '../../img/v3_img/doc_icon.png';
 import plant_head from '../../img/plant_head.png';
 import portfolio from '../../files/portfolio.pdf';
 import ht6_mockup from '../../img/ht6_mockup.png';
@@ -10,6 +15,8 @@ import airate_mockup from '../../img/airate_mockup.png';
 import skinhance_mockup from '../../img/skinhance_mockup.png';
 import csc_logo from '../../img/csclogo.png';
 import { Link } from 'react-router-dom';
+import HoverDivLink from '../see_more_button/HoverDivLink';
+import umg_logo from '../../img/v3_img/umg_logo.png';
 
 const Homepage = () => {
     return (
@@ -18,8 +25,245 @@ const Homepage = () => {
                 <div className="home-header">
                     <Header/>
                 </div>
-
-                <div className="home-intro-wrapper">
+                <div className="home-hero-wrapper">
+                    <div className="home-hero-left">
+                        <h1>hey, i'm <b className='text-purple'>kim</b>!</h1>
+                        <p>As a <b className='text-purple'>multidisciplinary designer and developer</b> passionate about technology and graphic design, I strive to combine design and development software to create seamless products and experiences for everyone to enjoy!</p>
+                    </div>
+                    <div className="home-hero-right">
+                        <img src={home_photo} alt='girl with dragon on head' className='home-hero-img'></img>
+                    </div>
+                </div>
+                <div className="home-hero-divider">
+                    <img src={sparkle_divider} alt='sparkles divider' classname='home-sparkle-divider'></img>
+                </div>
+                <div className="home-highlights-wrapper">
+                    <div className="home-heading">
+                        <div className="heading-icon-wrapper">
+                            <img src={flower_icon} alt='flower icon' className='heading-icon'></img>
+                        </div>
+                        <div className="heading-text-wrapper">
+                            <h2>highlights/experiences</h2>
+                        </div>
+                    </div>
+                    <div className="home-highlights-body">
+                        <div className="hl-card-container">
+                            <div className="hl-card-content">
+                                <div className="hl-card-img-wrapper">
+                                    <img src={umg_logo} alt='universus media group logo'></img>
+                                </div>
+                                <div className="hl-card-text-wrapper">
+                                    <p className='hl-card-title'>Web Designer + Developer</p>
+                                    <p className='hl-card-company'>Universus Media Group</p>
+                                    <p className='hl-card-timeline'>May 2024 - Aug 2024</p>
+                                </div>
+                            </div>
+                            <div className="home-dashed-border">
+                                <HoverDivLink to="/works"/>
+                            </div>
+                        </div>
+                        <div className="hl-card-container">
+                            <div className="hl-card-content">
+                                <div className="hl-card-img-wrapper">
+                                    <img src={ht6_mockup} alt='hack the 6ix image'></img>
+                                </div>
+                                <div className="hl-card-text-wrapper">
+                                    <p className='hl-card-title'>Design Director</p>
+                                    <p className='hl-card-company'>Hack the 6ix Organizing Team</p>
+                                    <p className='hl-card-timeline'>Nov 2023 - Present</p>
+                                </div>
+                            </div>
+                            <div className="home-dashed-border">
+                                <HoverDivLink to="/Hack_the_6ix"/>
+                            </div>
+                        </div>
+                        <div className="hl-card-container">
+                            <div className="hl-card-content">
+                                <div className="hl-card-img-wrapper">
+                                    <img src={csc_logo} alt='uwaterloo cs club logo'></img>
+                                </div>
+                                <div className="hl-card-text-wrapper">
+                                    <p className='hl-card-title'>Web Design Lead</p>
+                                    <p className='hl-card-company'>UWaterloo Computer Science Club</p>
+                                    <p className='hl-card-timeline'>Aug 2023 - Present</p>
+                                </div>
+                            </div>
+                            <div className="home-dashed-border">
+                                <HoverDivLink to="/UW_CS_Club"/>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <SeeMoreBtn/>
+                </div>
+                <div className="home-tech-stack-wrapper">
+                    <div className="home-heading">
+                        <div className="heading-icon-wrapper">
+                            <img src={books_icon} alt='books icon' className='heading-icon'></img>
+                        </div>
+                        <div className="heading-text-wrapper">
+                            <h2>design/development stack</h2>
+                        </div>
+                    </div>
+                    <div className="ts-boxes-wrapper">
+                        <div className="ts-flower-deco">
+                            <img src={flower_deco} alt="flower"></img>
+                        </div>
+                        <div className="ts-design">
+                            <div className="ts-heading">
+                                <h4>design</h4>
+                            </div>
+                            <div className="ts-items-box">
+                                <div className="ts-items-box-content">
+                                    <div className="ts-item">Figma</div>
+                                    <div className="ts-item">Adobe Photoshop</div>
+                                    <div className="ts-item">Adobe Illustrator</div>
+                                    <div className="ts-item">Adobe InDesign</div>
+                                    <div className="ts-item">Adobe Premiere Pro</div>
+                                    <div className="ts-item">Adobe Lightroom</div>
+                                    <div className="ts-item">Blender (CAD Software)</div>
+                                </div>
+                                <div className="home-dashed-border"></div>
+                            </div>
+                        </div>
+                        <div className="ts-langs">
+                            <div className="ts-heading">
+                                <h4>languages</h4>
+                            </div>
+                            <div className="ts-items-box">
+                                <div className="ts-items-box-content">
+                                    <div className="ts-item">Java</div>
+                                    <div className="ts-item">Python</div>
+                                    <div className="ts-item">C</div>
+                                    <div className="ts-item">C++</div>
+                                    <div className="ts-item">C#</div>
+                                    <div className="ts-item">R</div>
+                                    <div className="ts-item">HTML5</div>
+                                    <div className="ts-item">CSS3</div>
+                                    <div className="ts-item">PHP</div>
+                                    <div className="ts-item">JavaScript</div>
+                                    <div className="ts-item">TypeScript</div>
+                                    <div className="ts-item">SQL</div>
+                                    <div className="ts-item">PostgreSQL</div>
+                                    <div className="ts-item">Excel</div>
+                                    <div className="ts-item">MATLAB</div>
+                                    <div className="ts-item">Shell Script</div>
+                                </div>
+                                <div className="home-dashed-border"></div>
+                            </div>
+                        </div>
+                        <div className="ts-other">
+                            <div className="ts-heading">
+                                <h4>other tools</h4>
+                            </div>
+                            <div className="ts-items-box">
+                                <div className="ts-items-box-content">
+                                    <div className="ts-item">Unity</div>
+                                    <div className="ts-item">Power BI</div>
+                                    <div className="ts-item">WordPress</div>
+                                    <div className="ts-item">Git</div>
+                                    <div className="ts-item">Jupyter Notebook</div>
+                                    <div className="ts-item">Postman API</div>
+                                    <div className="ts-item">REST APIs</div>
+                                    <div className="ts-item">FTP Servers</div>
+                                    <div className="ts-item">scikit-learn</div>
+                                </div>
+                                <div className="home-dashed-border"></div>
+                            </div>
+                        </div>
+                        <div className="ts-libfrm">
+                            <div className="ts-heading">
+                                <h4>libraries/frameworks</h4>
+                            </div>
+                            <div className="ts-items-box">
+                                <div className="ts-items-box-content">
+                                    <div className="ts-item">React</div>
+                                    <div className="ts-item">Angular</div>
+                                    <div className="ts-item">Flask</div>
+                                    <div className="ts-item">Streamlit</div>
+                                    <div className="ts-item">Matplotlib</div>
+                                    <div className="ts-item">Numpy</div>
+                                    <div className="ts-item">BeautifulSoup</div>
+                                    <div className="ts-item">pandas</div>
+                                    <div className="ts-item">scikit-learn</div>
+                                </div>
+                                <div className="home-dashed-border"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="home-work-wrapper">
+                    <div className="home-heading">
+                        <div className="heading-icon-wrapper">
+                            <img src={doc_icon} alt='document icon' className='heading-icon'></img>
+                        </div>
+                        <div className="heading-text-wrapper">
+                            <h2>work & projects</h2>
+                        </div>
+                    </div>
+                    <div className="home-work-content-box">
+                        <div className="home-work-item-wrapper">
+                            <div className="home-work-item-content">
+                                <div className="home-work-item-img">
+                                    <img src={umg_logo} alt="univerus media group logo"></img>
+                                </div>
+                                <div className="home-work-item-text-wrapper">
+                                    <div className="home-work-title-sect">
+                                        <p className="home-work-item-title">Web Designer + Developer</p>
+                                        <p className="home-work-item-subheading">Universus Media Group</p>
+                                    </div>
+                                    <p className="home-work-item-desc">
+                                        At Universus Media Group, I worked on graphic and web design/development projects, including designing and developing websites and creating marketing posts, banner, and logo designs.
+                                    </p>
+                                    <Link to="/works" className="home-work-link">Explore →</Link>
+                                </div>
+                            </div>
+                            <div className="home-dashed-border"></div>
+                        </div>
+                        <div className="home-work-item-wrapper">
+                            <div className="home-work-item-content">
+                                <div className="home-work-item-img">
+                                <img src={ht6_mockup} alt="hack the 6ix logo"></img>
+                                </div>
+                                <div className="home-work-item-text-wrapper">
+                                    <div className="home-work-title-sect">
+                                        <p className="home-work-item-title">Design Director</p>
+                                        <p className="home-work-item-subheading">Hack the 6ix Organizing Team</p>
+                                    </div>
+                                    <p className="home-work-item-desc">
+                                        For the Hack the 6ix Organizing Team, I worked on the UX research and UI/UX design for the 2024 website and dashboard designs, as well as designed swag items and marketing posts for the hackathon.
+                                    </p>
+                                    <Link to="/Hack_the_6ix" className="home-work-link">Explore →</Link>
+                                </div>
+                            </div>
+                            <div className="home-dashed-border"></div>
+                        </div>
+                        <div className="home-work-item-wrapper">
+                            <div className="home-work-item-content">
+                                <div className="home-work-item-img">
+                                <img src={csc_logo} alt="uwaterloo computer science logo"></img>
+                                </div>
+                                <div className="home-work-item-text-wrapper">
+                                    <div className="home-work-title-sect">
+                                        <p className="home-work-item-title">Web Design Lead (Design Co-Lead)</p>
+                                        <p className="home-work-item-subheading">UWaterloo Computer Science Club</p>
+                                    </div>
+                                    <p className="home-work-item-desc">
+                                        For the UWaterloo CS Club, I worked on several iterations of the club's swag (merchandise), designed 20+ marketing posts, and led the web design for various web development projects for the club, such as the UWaterloo CS Class Profile.
+                                    </p>
+                                    <Link to="/Hack_the_6ix" className="home-work-link">Explore →</Link>
+                                </div>
+                            </div>
+                            <div className="home-dashed-border"></div>
+                        </div>
+                        {/* add more works here */}
+                        <div className="see-more-btn">
+                            <SeeMoreBtn/>
+                        </div>
+                    </div>
+                </div>
+                
+                {/* <div className="home-intro-wrapper">
                     <div className="home-intro-left-margin"></div>
                     <div className="home-intro-text-wrapper">
                         <div className="home-intro-title">
@@ -180,7 +424,7 @@ const Homepage = () => {
                 <div className="home-see-more-btn">
                     <a href={portfolio} className='home-see-more-link'>See More</a>
                 </div>
-                </div>
+                </div> */}
                 
                 <div className="home-footer">
                     <Footer/>
