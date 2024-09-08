@@ -25,8 +25,8 @@ const Works = () => {
                                 
                         </div>
                         <p className='w-pgh'>
-                            As a multidisciplinary designer and full-stack software developer passionate about technology and graphic design, I strive to combine design and development tools to create seamless products and experiences for everyone to enjoy!
-                        </p> 
+                            These are some of the positions I've held recently and the work I've done in each role!
+                            </p> 
                         <div className="w-gallery">
                             <div className="w-card-container">
                                 <div className="w-card-content">
@@ -87,7 +87,7 @@ const Works = () => {
                                 
                         </div>
                         <p className='w-pgh'>
-                            As a multidisciplinary designer and full-stack software developer passionate about technology and graphic design, I strive to combine design and development tools to create seamless products and experiences for everyone to enjoy!
+                            Here are some projects that I've worked on for hackathons or during my own time :D
                         </p> 
                         <div className="w-gallery">
                             <div className="w-card-container">
@@ -185,7 +185,7 @@ const Works = () => {
                                 
                         </div>
                         <p className='w-pgh'>
-                            As a multidisciplinary designer and full-stack software developer passionate about technology and graphic design, I strive to combine design and development tools to create seamless products and experiences for everyone to enjoy!
+                            Here are some mini things I've worked on in my own time ~ some sketches and experimentations with various design/development programs :D
                         </p> 
                         <div className="w-gallery">
                             <div className="w-card-container">

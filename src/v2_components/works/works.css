@@ -54,8 +54,8 @@ b.text-purple{
     padding: 50px 0;
     width: 90%;
     height: auto;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    justify-content: left;
     margin: 0 auto;
     /* border: 2px solid purple; */
 }
