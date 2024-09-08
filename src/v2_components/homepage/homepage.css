@@ -170,7 +170,7 @@ b.text-purple{
 
 }
 
-.home-work-item-wrapper .home-dashed-border {
+.ts-items-box .home-dashed-border, .home-work-item-wrapper .home-dashed-border {
     pointer-events: none;
 }
 
