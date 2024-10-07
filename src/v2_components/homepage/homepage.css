@@ -223,7 +223,7 @@ b.text-purple{
     }
 
     .hl-card-img-wrapper img {
-        width: 70%;
+        width: 65%;
         height: auto;
     }
 
@@ -486,10 +486,17 @@ b.text-purple{
     /* gap: 20px; */
     width: 100%;
     height: auto;
+    max-height: auto;
     /* border: 2px dashed var(--v2purplelight); */
     border-radius: 20px;
     overflow: hidden;
 
+}
+
+@media screen and (min-width: 900px) {
+    .home-work-item-content {
+        height: 200px;
+    }
 }
 
 .home-work-item-img {
@@ -500,14 +507,17 @@ b.text-purple{
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 150px;
+    /* min-height: 150px;   */
+    max-height: 100%;
     height: auto;
     padding: 10px;
 }
 
 .home-work-item-img img {
-    width: 70%;
-    height: auto;
+    max-width: 80%;
+    /* height: auto; */
+    max-height: 80%;
+    /* aspect-ratio: auto; */
 }
 
 .home-work-item-text-wrapper {

@@ -17,6 +17,7 @@ import csc_logo from '../../img/csclogo.png';
 import { Link } from 'react-router-dom';
 import HoverDivLink from '../see_more_button/HoverDivLink';
 import umg_logo from '../../img/v3_img/umg_logo.png';
+import pizza_img from '../../img/v3_img/pizza_img.png';
 
 const Homepage = () => {
     return (
@@ -202,6 +203,25 @@ const Homepage = () => {
                         </div>
                     </div>
                     <div className="home-work-content-box">
+                        <div className="home-work-item-wrapper">
+                            <div className="home-work-item-content">
+                                <div className="home-work-item-img">
+                                    <img src={pizza_img} alt="pizza studio logo"></img>
+                                </div>
+                                <div className="home-work-item-text-wrapper">
+                                    <div className="home-work-title-sect">
+                                        <p className="home-work-item-title">Designer + Front-End Developer</p>
+                                        <p className="home-work-item-subheading">Pizza Studio [Technova 2024 Winner]</p>
+                                    </div>
+                                    <p className="home-work-item-desc">
+                                        We developed mobile application using React Native and Python Flask to combat domestic violence,
+                                        featuring audio recording, processing, and alert-sending capabilities disguised as a pizza ordering app.
+                                    </p>
+                                    <Link to="/works" className="home-work-link">Explore →</Link>
+                                </div>
+                            </div>
+                            <div className="home-dashed-border"></div>
+                        </div>
                         <div className="home-work-item-wrapper">
                             <div className="home-work-item-content">
                                 <div className="home-work-item-img">
