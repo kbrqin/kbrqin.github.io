@@ -13,7 +13,7 @@ const Header = ({ theme, toggleTheme }) => {
         <div className='site-logo'>
             <img src={site_logo} alt="site logo" />
         </div>
-        <div className='header-right'> {/* Add a container for nav and theme button */}
+        <div className='header-right'> 
             <nav>
                 <ul>
                     <li>

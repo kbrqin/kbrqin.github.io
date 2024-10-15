@@ -15,7 +15,7 @@ const ThemeButton = ({ toggleTheme }) => {
                 background: 'transparent',
                 border: 'none',
                 cursor: 'pointer',
-                padding: '0',
+                padding: '0 0 0 40px',
                 color: 'var(--text-color)',
                 fontSize: '24px',
             }}

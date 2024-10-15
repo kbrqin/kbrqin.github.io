@@ -4,8 +4,8 @@ import ProjectsAll from '../../components/projects-items/ProjectsAll';
 
 const Projects = ({ theme }) => {
   return (
-    <div>
-      <h1>Projects</h1>
+    <div className='projects'>
+      <h1>projects</h1>
       <ProjectsAll theme={theme} /> 
     </div>
   );

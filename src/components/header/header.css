@@ -5,7 +5,7 @@ header {
     display: flex;
     justify-content: space-between; /* Keeps the logo on the left */
     align-items: center; 
-    padding: 0 20px;
+    padding: 10px 20px;
     width: 80vw;
 }
 
@@ -84,4 +84,3 @@ ul.dropdown li a:hover {
 a.resume-dropdown {
     color: var(--text-color);
 }
-

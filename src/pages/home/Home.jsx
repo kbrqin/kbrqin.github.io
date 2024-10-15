@@ -19,6 +19,12 @@ const Home = ({ theme }) => {
     window.location.href = resume_design; // Update with your PDF path
   };
 
+  const navigate = useNavigate();
+
+  const seeMoreButtonClick = () => {
+    navigate('/projects');
+  };
+
   const languages = [
     "python", "c++", "c", "c#", "java", "kotlin", "r", "html", "css", "php", 
     "javascript", "typescript", "sql", "swift", "golang", "shell script", "excel", "matlab"
@@ -147,6 +153,7 @@ const Home = ({ theme }) => {
       <div className='home-projects'>
         <h2>featured <span className='purple'>work</span></h2>
         <ProjectsSubset theme={theme} />
+        <Button variant='primary' onclick={seeMoreButtonClick}>see more</Button>
       </div>
 
       <div className="home-connect">
