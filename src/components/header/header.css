@@ -80,3 +80,8 @@ ul.dropdown li a {
 ul.dropdown li a:hover {
     color: var(--accent-color); /* Change color on hover */
 }
+
+a.resume-dropdown {
+    color: var(--text-color);
+}
+
