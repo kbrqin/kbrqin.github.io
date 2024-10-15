@@ -1,0 +1,82 @@
+header {
+    background-color: var(--bg-color);
+    height: 50px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between; /* Keeps the logo on the left */
+    align-items: center; 
+    padding: 0 20px;
+    width: 80vw;
+}
+
+.site-logo {
+    height: 100%;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.site-logo img {
+    height: 70%;
+    width: auto;
+}
+
+/* Add this new class to align nav and theme button */
+.header-right {
+    display: flex; /* Use flexbox to align nav and theme button */
+    align-items: center; /* Center items vertically */
+    margin-left: auto; /* Push this container to the right */
+    gap: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px;
+    color: var(--text-color); /* Default text color */
+    font-weight: 400;
+}
+
+/* Active link styling with accent color */
+.active-link {
+    color: var(--accent-color); /* Accent color */
+}
+
+ul.dropdown {
+    width: auto; /* Automatically size to content */
+    background: var(--bg-color);
+    position: absolute; /* Position it relative to the container */
+    z-index: 999;
+    display: none; /* Initially hidden */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add drop shadow */
+    border-radius: 4px; /* Optional: Rounded corners for a smoother look */
+}
+
+/* Show dropdown when hovering over the entire container */
+.dropdown-container:hover ul.dropdown {
+    display: block; /* Show dropdown on hover */
+}
+
+/* Ensure list items are displayed properly */
+ul.dropdown li {
+    display: block; /* Stack items vertically */
+    padding: 10px; /* Add padding for clickable area */
+}
+
+/* Optionally, add hover effects on the links */
+ul.dropdown li a {
+    color: var(--text-color); /* Set link color */
+    text-decoration: none; /* Remove underline */
+}
+
+ul.dropdown li a:hover {
+    color: var(--accent-color); /* Change color on hover */
+}

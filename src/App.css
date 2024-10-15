@@ -1,4 +1,10 @@
-.app{
+.app {
   display: flex;
-  background-color: #fffffe;
+  flex-direction: column;
+  background-color: var(--bg-color);
+  width: 80vw; /* 80% of the viewport width */
+  margin: 0 auto; /* Center the app horizontally */
+  align-items: center; /* Center items horizontally */
+  justify-content: stretch; /* Allow content to stretch vertically */
+  padding: 0 10%; /* Optional: Add padding on the sides for extra spacing */
 }

@@ -1,0 +1,163 @@
+.home {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .hero {
+        flex-direction: column-reverse;
+    }
+}
+
+.hero-left {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.hero-right {
+    flex: 1;
+}
+
+.hero-right img {
+    width: 100%;
+    height: auto;
+}
+
+.hero-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .hero-buttons {
+        flex-direction: column;
+    }
+}
+
+/*************************************************************************/
+
+.home-abt {
+    display: flex;
+    flex-direction: column;
+}
+
+.home-abt-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.home-abt-left {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-abt-right {
+    flex: 2;
+}
+
+.home-abt-img {
+    position: relative;
+    max-width: 350px;
+    height: auto;
+}
+
+.abt-img-bg {
+    width: 100%;
+    height: auto;
+}
+
+.abt-img-spotify {
+    width: 70%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+    .home-abt-content {
+        flex-direction: column;
+    }
+}
+
+/*************************************************************************/
+
+.icon {
+    color: var(--accent-color);
+}
+
+.home-tech-stack {
+    padding: 30px 0;
+}
+
+.ts-contents {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.slash-sect {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.slash-desc {
+    flex: 1;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.slash-list {
+    flex: 8;
+    flex-wrap: wrap;
+    font-weight: 500;
+}
+
+.slash-category {
+    font-weight: 600;
+}
+
+/*************************************************************************/
+
+.home-connect {
+    padding: 30px 0;
+}
+
+.connect-contents {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
