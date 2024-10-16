@@ -5,6 +5,7 @@ import './App.css';
 import Home from './pages/home/Home';
 import Projects from './pages/projects/Projects';
 import Header from './components/header/Header';
+import Footer from './components/footer/Footer';
 
 function App() {
   const [theme, setTheme] = useState('light');
@@ -29,6 +30,7 @@ function App() {
         <Route path="/" element={<Home theme={theme} />} /> 
         <Route path="/projects" element={<Projects theme={theme} />} />
       </Routes>
+      <Footer/>
     </div>
   );
 }

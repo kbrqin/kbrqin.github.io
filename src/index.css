@@ -3,6 +3,7 @@
   --purple1-light: #E1BFFF;
   --purple2-light: #F5E9FF;
   --grey0-light: #D9D9D9;
+  --grey-accent: #9A9A9A;
   --bg-color: #FBFCFF;
   --text-color: #191125;
   --accent-color: #C096E6;
@@ -12,7 +13,7 @@
 
 [data-theme="dark"] {
   --grey0-dark: #1D1726;
-  --grey1-dark: #9A9A9A;
+  --grey-accent: #9A9A9A;
   --bg-color: #191125;
   --text-color: #FBFCFF;
   --accent-color: #CBA4ED;
@@ -39,8 +40,7 @@ a.visited {
 
 body {
   margin: 0;
-  font-family: 'Open Sans', sans-serif;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Open Sans', 'Nunito Sans', sans-serif;
   /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif; */

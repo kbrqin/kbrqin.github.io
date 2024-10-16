@@ -25,9 +25,17 @@
     flex-direction: column;
 }
 
+.hero-left h1 {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
 h1 {
     margin: 0;
     padding: 0;
+}
+
+h2 {
+    margin: 0;
 }
 
 .hero-right {
@@ -56,6 +64,7 @@ h1 {
 .home-abt {
     display: flex;
     flex-direction: column;
+    padding: 20px 0;
 }
 
 .home-abt-content {
@@ -112,6 +121,9 @@ h1 {
 
 .home-tech-stack {
     padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
 .ts-contents {
@@ -128,6 +140,13 @@ h1 {
     align-items: flex-start;
 }
 
+@media screen and (max-width: 768px) {
+    .slash-sect {
+        flex-direction: column;
+        gap: 5px;
+    }
+}
+
 .slash-desc {
     flex: 1;
     flex-wrap: nowrap;
@@ -135,7 +154,7 @@ h1 {
     display: flex;
     flex-direction: row;
     gap: 5px;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
 }
 
@@ -155,24 +174,34 @@ h1 {
     display: flex;
     flex-direction: column;
     gap: 30px;
+    padding: 30px 0;
 }
 
 /*************************************************************************/
 
 .home-connect {
     padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .connect-contents {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 @media screen and (max-width: 768px) {
     .connect-contents {
         flex-direction: column;
+        gap: 20px;
+        align-items: flex-start;
+    }
+    .connect-contents .slash-sect {
+        flex-direction: row;
+        gap: 5px;
     }
     
 }

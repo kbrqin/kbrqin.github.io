@@ -2,6 +2,8 @@
 import React from 'react';
 import ProjectsAll from '../../components/projects-items/ProjectsAll';
 
+import './projects.css';
+
 const Projects = ({ theme }) => {
   return (
     <div className='projects'>

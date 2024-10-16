@@ -1,7 +1,6 @@
 header {
     background-color: var(--bg-color);
     height: 50px;
-    /* border: 2px solid red; */
     display: flex;
     justify-content: space-between; /* Keeps the logo on the left */
     align-items: center; 
@@ -22,18 +21,18 @@ header {
     width: auto;
 }
 
-/* Add this new class to align nav and theme button */
+/* Align nav and theme button */
 .header-right {
-    display: flex; /* Use flexbox to align nav and theme button */
-    align-items: center; /* Center items vertically */
-    margin-left: auto; /* Push this container to the right */
+    display: flex;
+    align-items: center;
+    margin-left: auto;
     gap: 20px;
 }
 
 nav ul {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 10px;
 }
 
 nav a {
@@ -48,39 +47,143 @@ nav a {
     color: var(--accent-color); /* Accent color */
 }
 
+/* Dropdown styles */
 ul.dropdown {
-    width: auto; /* Automatically size to content */
+    width: auto;
     background: var(--bg-color);
-    position: absolute; /* Position it relative to the container */
+    position: absolute;
     z-index: 999;
-    display: none; /* Initially hidden */
-    padding: 0; /* Remove default padding */
-    margin: 0; /* Remove default margin */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add drop shadow */
-    border-radius: 4px; /* Optional: Rounded corners for a smoother look */
+    display: none;
+    padding: 0;
+    margin: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
 }
 
-/* Show dropdown when hovering over the entire container */
 .dropdown-container:hover ul.dropdown {
-    display: block; /* Show dropdown on hover */
+    display: block;
 }
 
-/* Ensure list items are displayed properly */
 ul.dropdown li {
-    display: block; /* Stack items vertically */
-    padding: 10px; /* Add padding for clickable area */
+    display: block;
+    padding: 10px;
 }
 
-/* Optionally, add hover effects on the links */
 ul.dropdown li a {
-    color: var(--text-color); /* Set link color */
-    text-decoration: none; /* Remove underline */
+    color: var(--text-color);
+    text-decoration: none;
 }
 
 ul.dropdown li a:hover {
-    color: var(--accent-color); /* Change color on hover */
+    color: var(--accent-color);
 }
 
 a.resume-dropdown {
     color: var(--text-color);
+}
+
+@media screen and (max-width: 768px) {
+    .resume-dropdown {
+        display: none;
+    }
+    
+    /* Dropdown styles */
+    ul.dropdown {
+        width: auto;
+        background: transparent;
+        position: absolute;
+        z-index: 999;
+        display: none;
+        margin: 0;
+        box-shadow: none;
+        border-radius: 0;
+        width: 100%;
+        padding: 0;
+        background-color: var(--bg-color);
+    }
+
+    .dropdown-container:hover ul.dropdown {
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+
+    ul.dropdown li {
+        display: block;
+        padding: 20px 10px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    
+
+    ul.dropdown li a {
+        color: var(--text-color);
+        text-decoration: none;
+    }
+
+    ul.dropdown li a:hover {
+        color: var(--accent-color);
+    }
+    
+}
+
+/* Hamburger Icon */
+.hamburger-icon {
+    display: none; /* Hidden on desktop */
+    cursor: pointer;
+    z-index: 100;
+}
+
+/* Mobile menu styling */
+.mobile-menu {
+    display: none; /* Initially hidden */
+    position: absolute;
+    top: -100vh;
+    right: 0;
+    background-color: var(--bg-color);
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.mobile-menu.open {
+    display: block; /* Show when toggled */
+    transform: translateY(100vh);
+}
+
+.mobile-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;          /* Flexbox for the list */
+    flex-direction: column; /* Arrange items in a column */
+    align-items: center;     /* Center align the items */
+    gap: 20px;               /* Add some space between the items */
+}
+
+.mobile-menu ul li {
+    width: 100%;             /* Make each list item take full width */
+    text-align: center;      /* Center the text */
+    padding: 10px 0;
+}
+
+.mobile-menu ul li a {
+    color: var(--text-color);
+    font-size: 18px;
+}
+
+/* Media queries for mobile view */
+@media (max-width: 768px) {
+    .header-right {
+        display: none; /* Hide desktop nav on mobile */
+    }
+
+    .hamburger-icon {
+        display: block; /* Show hamburger icon on mobile */
+        color: var(--accent-color);
+    }
 }
