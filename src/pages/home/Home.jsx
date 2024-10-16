@@ -108,7 +108,7 @@ const Home = ({ theme }) => {
             {libs.map((item, index) => (
               <React.Fragment key={index}>
                 <span style={{ color: 'var(--accent-color)' }}>{item}</span>
-                  {index < languages.length - 1 && <span style={{ color: 'var(--text-color)' }}> ⋅ </span>}
+                  {index < libs.length - 1 && <span style={{ color: 'var(--text-color)' }}> ⋅ </span>}
               </React.Fragment>
             ))}
             </span>
@@ -124,7 +124,7 @@ const Home = ({ theme }) => {
             {des_tools.map((item, index) => (
               <React.Fragment key={index}>
                 <span style={{ color: 'var(--accent-color)' }}>{item}</span>
-                  {index < languages.length - 1 && <span style={{ color: 'var(--text-color)' }}> ⋅ </span>}
+                  {index < des_tools.length - 1 && <span style={{ color: 'var(--text-color)' }}> ⋅ </span>}
               </React.Fragment>
             ))}
             </span>
@@ -140,7 +140,7 @@ const Home = ({ theme }) => {
             {dev_tools.map((item, index) => (
               <React.Fragment key={index}>
                 <span style={{ color: 'var(--accent-color)' }}>{item}</span>
-                  {index < languages.length - 1 && <span style={{ color: 'var(--text-color)' }}> ⋅ </span>}
+                  {index < dev_tools.length - 1 && <span style={{ color: 'var(--text-color)' }}> ⋅ </span>}
               </React.Fragment>
             ))}
             </span>

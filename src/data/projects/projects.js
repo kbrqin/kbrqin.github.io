@@ -19,7 +19,7 @@ const projects = [
       title: 'pizza studio [technova\'24 winner]',
       points: [
         'developed an audio recording and alert-sending mobile application disguised as a pizza ordering app.',
-        'assessed situation risk level by transcribing recordings and detecting emotions through AI processing, then determining the risk level using OpenAI, and Hume AI, Deepgram AI.',
+        'assessed situation risk level by transcribing recordings and detecting emotions through ai processing, then determining the risk level using openai, hume ai, and deepgram ai.',
       ],
       tools: "[typescript, react native, python, flask, mongodb, figma, aws, openai, hume ai, deepgram ai, twilio]",
       imageUrl: pizza_img,
