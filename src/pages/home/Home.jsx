@@ -153,7 +153,7 @@ const Home = ({ theme }) => {
       <div className='home-projects'>
         <h2>featured <span className='purple'>work</span></h2>
         <ProjectsSubset theme={theme} />
-        <Button variant='primary' onclick={seeMoreButtonClick}>see more</Button>
+        <Button variant='primary' onClick={seeMoreButtonClick}>see more</Button>
       </div>
 
       <div className="home-connect">
