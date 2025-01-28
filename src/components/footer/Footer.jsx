@@ -10,7 +10,7 @@ const Footer = ({ theme }) => {
                 <p>
                     made with <span className='purple'>react</span> and <span className='purple'>♡</span> by kim
                 </p>
-                <p className='last-updated'>last updated: 2024-10-15</p>
+                <p className='last-updated'>last updated: 2025-01-27</p>
             </div>
             <div className="footer-right">
                 <div className="footer-slash-sect">
