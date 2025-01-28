@@ -1,5 +1,13 @@
 .projects {
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 20px;
+}
+
+.projects h1 {
+    padding: 30px 0 0 0;
+}
+
+.projects a {
+    font-weight: 700;
 }

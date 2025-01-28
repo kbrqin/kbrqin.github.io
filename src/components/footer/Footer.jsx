@@ -8,7 +8,7 @@ const Footer = ({ theme }) => {
         <div className={`footer ${theme}`}>
             <div className="footer-left">
                 <p>
-                    made with <span className='purple'>react</span> and <span className='purple'>♡</span> by kim guo
+                    made with <span className='purple'>react</span> and <span className='purple'>♡</span> by kim
                 </p>
                 <p className='last-updated'>last updated: 2024-10-15</p>
             </div>

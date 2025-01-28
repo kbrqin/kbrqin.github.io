@@ -50,7 +50,7 @@ const Home = ({ theme }) => {
           <h1>hey, i'm <span className="purple">kim</span>!</h1>
           <p>
             full-stack developer, ux/ui designer,<br />
-            computer science @university of waterloo.
+            computer science + statistics @uwaterloo.
           </p>
           <div className="hero-buttons">
             {/* Pass the function reference here without parentheses */}
@@ -68,9 +68,9 @@ const Home = ({ theme }) => {
         <h2>about <span className='purple'>me</span></h2>
         <div className="home-abt-content">
           <div className="home-abt-left">
-            <p>with a background in both tech and visual arts, i've developed a strong passion for both the development and product design side of the project lifecycle. as such, i've been taking on roles in both disciplines, developing user-centric products with fun features and reusable components. </p>
-            <p>some of my recent and current roles thus include: web designer and front-end developer for universus media group, where i worked on various website design and development projects for clients, design director at hack the 6ix, and web design lead for uwaterloo's computer science club.</p>
-            <p>in my free time, i've been delving into developing machine learning models and optimizing neural networks. outside the terminal, you can find me catching up on genshin lore, and playing league of legends (and reminiscing about swarm).</p>
+            <p>with a background in both tech and visual arts, i've developed a strong passion for both the development and product design sides of the project lifecycle. as such, i've been taking on roles in both disciplines, developing user-centric products with useful features and reusable components. </p>
+            <p>some of my recent and current roles include: ai + full stack developer @paloma, web designer and front-end developer at universus media group, design director at hack the 6ix, and web design lead for uwaterloo's computer science club.</p>
+            <p>in my free time, i've been delving into developing machine learning models and optimizing neural networks. outside the terminal, you can find me playing wuthering waves and maybe league of legends (mostly reminiscing about swarm).</p>
           </div>
           <div className="home-abt-right">
             <div className="home-abt-img">

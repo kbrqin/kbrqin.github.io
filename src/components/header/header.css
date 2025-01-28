@@ -6,6 +6,7 @@ header {
     align-items: center; 
     padding: 10px 20px;
     width: 80vw;
+    font-weight: 500;
 }
 
 .site-logo {
@@ -39,7 +40,7 @@ nav a {
     text-decoration: none;
     padding: 10px;
     color: var(--text-color); /* Default text color */
-    font-weight: 400;
+    font-weight: 500;
 }
 
 /* Active link styling with accent color */
