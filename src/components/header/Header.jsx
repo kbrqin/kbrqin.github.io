@@ -54,8 +54,8 @@ const Header = ({ theme, toggleTheme }) => {
           <li className='dropdown-item'>
             <a className='resume-dropdown'>resume</a>
             <ul className='dropdown'>
-              <li><a href={resume_dev}>dev resume</a></li>
-              <li><a href={resume_design}>design resume</a></li>
+              <li><a href={resume_dev} target='_blank'>dev resume</a></li>
+              <li><a href={resume_design} target='_blank'>design resume</a></li>
             </ul>
           </li>
         </ul>

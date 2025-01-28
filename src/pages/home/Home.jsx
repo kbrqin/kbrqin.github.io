@@ -177,7 +177,7 @@ const Home = ({ theme }) => {
             </div>
             <div className="slash-list">
               <span className='slash-item'>
-                <a href="https://www.linkedin.com/in/kbrqin/">kbrqin</a>
+                <a href="https://www.linkedin.com/in/kbrqin/" target='_blank'>kbrqin</a>
               </span>
             </div>
           </div>
@@ -188,7 +188,7 @@ const Home = ({ theme }) => {
             </div>
             <div className="slash-list">
               <span className='slash-item'>
-                <a href="https://github.com/kbrqin">kbrqin</a>
+                <a href="https://github.com/kbrqin" target='_blank'>kbrqin</a>
               </span>
             </div>
           </div>
