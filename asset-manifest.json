@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9219fa9d.css",
-    "main.js": "/static/js/main.2ea36568.js",
+    "main.js": "/static/js/main.b2dbd14b.js",
     "static/js/787.7da95b79.chunk.js": "/static/js/787.7da95b79.chunk.js",
     "static/media/hero-img-light.png": "/static/media/hero-img-light.bb5db150d6d895610417.png",
     "static/media/hero-img-dark.png": "/static/media/hero-img-dark.ab793b34c902c458530a.png",
@@ -16,7 +16,7 @@
     "static/media/rewind-img.png": "/static/media/rewind-img.828821c19439f198c0e5.png",
     "static/media/umg-vivi-img.png": "/static/media/umg-vivi-img.7e1203e0d42868f2c858.png",
     "static/media/ht6-24-graphic-img.png": "/static/media/ht6-24-graphic-img.fadd3d0f03056021369e.png",
-    "static/media/resume_dev.pdf": "/static/media/resume_dev.7d676c9330c4267b569a.pdf",
+    "static/media/resume_dev.pdf": "/static/media/resume_dev.3d7e9f23b116ebb656a6.pdf",
     "static/media/pizza-img.png": "/static/media/pizza-img.fe40d9dd80e8f2555dab.png",
     "static/media/abt-me-spotify.png": "/static/media/abt-me-spotify.ea13946121b6a4720030.png",
     "static/media/resume_design.pdf": "/static/media/resume_design.97167094e261a5e280b8.pdf",
@@ -25,11 +25,11 @@
     "static/media/mnist-img.png": "/static/media/mnist-img.95eda26050461b95cbf9.png",
     "index.html": "/index.html",
     "main.9219fa9d.css.map": "/static/css/main.9219fa9d.css.map",
-    "main.2ea36568.js.map": "/static/js/main.2ea36568.js.map",
+    "main.b2dbd14b.js.map": "/static/js/main.b2dbd14b.js.map",
     "787.7da95b79.chunk.js.map": "/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9219fa9d.css",
-    "static/js/main.2ea36568.js"
+    "static/js/main.b2dbd14b.js"
   ]
 }
